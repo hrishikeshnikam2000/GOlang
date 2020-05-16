@@ -6,6 +6,7 @@ import (
 )
 
 var name string
+var bro string
 
 func main() {
 	var rollNo int
@@ -13,10 +14,12 @@ func main() {
 	rollNo = 30
 	// rollNo =  "20.5"
 	// var firstName = "abc"
+
 	var (
 		firstName, lastName, flag = "bunny", "bunz", false
 	)
 	name = "AbC"
+	bro = "what's up bro"
 	//shorthand variable declararion
 	test := 20
 	fmt.Println(rollNo)
@@ -26,4 +29,5 @@ func main() {
 	fmt.Printf("%t", test)
 	fmt.Println(runtime.GOOS)
 	fmt.Println(runtime.GOARCH)
+	fmt.Println(bro)
 }
